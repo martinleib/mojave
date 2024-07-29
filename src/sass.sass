@@ -1,10 +1,14 @@
+$black: #000
+$blackdot: #363743
+$white: #fff
+
 .todoListItem
     &:hover
         text-decoration: line-through
         cursor: pointer
 
 .text-dark
-    color: #000 !important
+    color: $black !important
 
 #bg
     position: absolute
@@ -19,3 +23,27 @@
 
     &:hover
         cursor: pointer
+
+.welcome-wrapper
+    height: 100vh
+    width: 100vw
+    position: absolute
+    z-index: 5
+    background-color: #000000c9
+
+.welcome-wrapper-content
+    border-radius: 15px
+    border: 1px dotted $black
+
+.welcome-wrapper-close
+    font-size: 1.8rem
+
+.mojave-await-message
+    opacity: 0.2
+
+// .mojave-app-content header
+//     border: 1px solid $white
+//     border-bottom: 0px
+
+// .mojave-app-content .mojave-app-todo
+//     border: 1px solid $white

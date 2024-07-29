@@ -2,7 +2,7 @@
 // added some modifications to it :D
 
 const DOT_COLOR_LIGHT_MODE = "#dce0e8";
-const DOT_COLOR_DARK_MODE = "#45475a";
+const DOT_COLOR_DARK_MODE = "#363743";
 const DOT_RADIUS = 1 * devicePixelRatio;
 
 const canvas = document.getElementById("bg");
